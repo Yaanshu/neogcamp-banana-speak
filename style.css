@@ -1,0 +1,38 @@
+body{
+    font-family: monospace;
+}
+
+textarea {
+    width: 90%;
+    margin: 1rem;
+    display: block;
+    height: 20vh;
+    padding: 1rem;
+}
+
+.container {
+    text-align: center;
+}
+
+#btn-translate{
+    min-width: 130px;
+    height: 40px;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 5px;
+    border: 2px solid #2c0b8e;
+    background: #2c0b8e;
+    font-family: monospace;
+    font-size: 15px;
+}
+
+#btn-translate:hover {
+    background: #fff;
+    color: #2c0b8e
+}
