@@ -1,13 +1,48 @@
+*{
+    box-sizing: border-box;
+}
+
+:root{
+    --primary-color:maroon;
+    --width-break:700px;
+}
+
 body{
     font-family: monospace;
+    background-color: beige;
+    padding: 0;
+    margin: 0;
+}
+
+nav{
+    background-color: var(--primary-color);
+    text-align: center;
+    margin-bottom: 1rem;
+    display: grid;
+}
+
+#heading{
+    font-size: 2rem;
+    color: white;
+    padding: 1.5rem;
+    justify-content: center;
+    display: inline;
+}
+
+main{
+    margin: auto;
+    max-width: var(--width-break);
+    padding: 2rem;
 }
 
 textarea {
-    width: 90%;
-    margin: 1rem;
+    /* margin: 1rem; */
     display: block;
+    width: 90%;
+    margin: auto;
     height: 20vh;
     padding: 1rem;
+    border: 2px solid black;
 }
 
 .container {
@@ -18,7 +53,7 @@ textarea {
     min-width: 130px;
     height: 40px;
     color: #fff;
-    padding: 5px 10px;
+    padding: 10px 15px;
     font-weight: bold;
     cursor: pointer;
     transition: all 0.3s ease;
@@ -30,9 +65,59 @@ textarea {
     background: #2c0b8e;
     font-family: monospace;
     font-size: 15px;
+    margin: 1rem 1rem 0.5rem 1rem;
 }
 
 #btn-translate:hover {
     background: #fff;
     color: #2c0b8e
+}
+
+
+.h-output{
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+#output{
+    border: 2px solid black;
+    height: 15vh;
+    width: 90%;
+    padding: 1rem;
+    display: block;
+    margin: auto;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-size: 25px;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 10px;
+    background-color: var(--primary-color);
+    text-align: center;
+    color: white;
+}
+
+.h-footer{
+    font-size: 20px; 
+    display: inline-block;
+    background-color: yellow;
+    color: black;
+    padding: 2px 4px 2px 7px;
+}
+
+
+footer p{
+    max-width: var(--width-break);
+    margin: auto;
+    padding: 1rem;
+    font-size: 15px;
+}
+
+img{
+    height: 60px;
 }
