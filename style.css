@@ -121,3 +121,18 @@ footer p{
 img{
     height: 60px;
 }
+
+
+@media only screen and (max-width:768px){
+    .h-footer{
+        font-size: 15px;
+    }
+
+    footer p{
+        font-size: 10px;
+    }
+
+    #heading{
+        font-size: 1.5rem;
+    }
+}
