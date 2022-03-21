@@ -30,13 +30,12 @@ nav{
 }
 
 main{
-    margin: auto;
     max-width: var(--width-break);
     padding: 2rem;
+    margin: auto;
 }
 
 textarea {
-    /* margin: 1rem; */
     display: block;
     width: 90%;
     margin: auto;
@@ -139,6 +138,10 @@ img{
     main{
         padding:2rem 0rem;
         max-width: none;
+    }
+
+    nav{
+        margin-bottom: 0rem;
     }
 
 }
